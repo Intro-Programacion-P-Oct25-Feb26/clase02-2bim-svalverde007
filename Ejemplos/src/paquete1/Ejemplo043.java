@@ -20,7 +20,7 @@ public class Ejemplo043 {
         // arreglo de tipo entero
         // int[] arreglo1 = new int[5];
         int suma = 0;
-        int[] arreglo1 = {1000, 1, 2, 2000, 300};
+        int[] arreglo1 = {1001, 1, 2, 2000, 300};
         String acumulador = "";
         // System.out.println(arreglo1.length);
         // arreglo1[2] = 1000;
