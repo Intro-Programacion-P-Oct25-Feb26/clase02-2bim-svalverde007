@@ -18,13 +18,13 @@ public class Ejemplo01 {
         // Declarar y generar arreglos en Java
 
         // arreglo de tipo entero
-        int[] arreglo1 = new int[5];
+        int[] arreglo1 = new int[5]; // new me permite crear la estructura 
 
         // arreglo de tipo double
         double[] arreglo2 = new double[5];
 
         // arreglo de tipo char
-        char[] arreglo3 = new char[5];
+        char[] arreglo3 = new char[5]; // char, muy similar a string
 
         // arreglo de tipo String
         String[] arreglo4 = new String[5];
