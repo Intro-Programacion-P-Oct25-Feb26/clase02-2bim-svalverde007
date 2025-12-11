@@ -18,14 +18,14 @@ public class Ejemplo10 {
      */
     public static void main(String[] args) {
         // Declarar y generar arreglos en Java
-        
+
         // Se declara un arreglo de tipo double, llamado promedios
         double[] promedios = {8.1, 9, 9.5, 10, 9.9};
         String[] estudiantes = {"Luis", "Ana", "Mónica", "José", "Juan"};
         String mensajeFinal = ""; // variable que acumula un reporte final
         // Se hace uso del ciclo repetitivo for para recorrer los arreglos
         // y presentar los valore de las posiciones
-        
+
         for (int i = 0; i < promedios.length; i++) { // estudiantes.length 
             // Se agrega los valores al reporte siempe y cuando
             // el valor de la posición del arreglo promedios
@@ -34,18 +34,19 @@ public class Ejemplo10 {
             //  8.1 > 8.1
             //  promedios[1]
             //  9 > 8.1
-            if (promedios[i]>8.1) {
-            
-                mensajeFinal = String.format("%sEstudiante:%s - promedio: "
-                        + "%.4f\n", 
+            double valor = promedios[i];
+            if (promedios[i] > 8.1) {
+
+                mensajeFinal = String.format("%sEstudiante: %s - promedio: "
+                        + "%.4f\n",
                         mensajeFinal,
                         estudiantes[i],
-                        promedios[i]);
+                        valor);
             }
         }
-        
+
         System.out.printf("%s\n", mensajeFinal);
-        
+
     }
 
 }
